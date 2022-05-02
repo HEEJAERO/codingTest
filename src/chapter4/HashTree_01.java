@@ -13,6 +13,9 @@ public class HashTree_01 {
         for(char c :str.toCharArray()){
             hashMap.put(c, hashMap.getOrDefault(c,0)+1);
         }
+        String number="aaaaa";
+        char[] chars = number.toCharArray();
+        
         int max=Integer.MIN_VALUE;
         for(char key: hashMap.keySet()){
             if(max<hashMap.get(key)) {
@@ -20,6 +23,7 @@ public class HashTree_01 {
                 answer = key;
             }
         }
+        
         return answer;
     }
 
