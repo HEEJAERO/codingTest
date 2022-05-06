@@ -7,6 +7,7 @@ public class DfsBfs07 {// 메모리제이션 : 배열의 값에 메서드 호출
     static int m;
     static int[][] arr;
     public static int Solution(int a,int b) {
+        if(arr[a][b]>0) return arr[a][b];
         if(a==0 || b==0 || a==b){
             return arr[a][b] = 1;
         }
@@ -20,7 +21,7 @@ public class DfsBfs07 {// 메모리제이션 : 배열의 값에 메서드 호출
         n = sc.nextInt();
         m = sc.nextInt();
         arr = new int[n+1][m+1];
-        Solution(n,m);
-        System.out.println(arr[n][m]);
+
+        System.out.println(Solution(n,m));
     }
 }
