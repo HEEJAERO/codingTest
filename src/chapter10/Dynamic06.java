@@ -17,7 +17,7 @@ public class Dynamic06 {
         return dy[m];
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //55
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
         m = sc.nextInt(); // 제한시간

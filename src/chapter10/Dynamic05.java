@@ -32,7 +32,7 @@ public class Dynamic05 {
         System.out.println(Solution(arr, n, sum));
     }*/
     static int n;
-    static int m;
+    static int m; //55
     static int[] dy;
     public static int Solution(int[] coin) {
         int answer = 0;

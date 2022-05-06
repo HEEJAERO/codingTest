@@ -21,7 +21,7 @@ class Time implements Comparable<Time> {
     }
 }
 
-public class Greedy02 {
+public class Greedy02 { //55
 
     /*public static int Solution(int n, int[][] arr) {
         // 왜 안되나 반례를 한번 생각해보자

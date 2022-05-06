@@ -3,7 +3,7 @@ package chapter8;
 import java.util.Scanner;
 
 public class DfsBfs09 {
-    // 조합
+    // 조합 55
     static int n;
     static int m;
     static int[] pm;

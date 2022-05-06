@@ -19,7 +19,7 @@ class T implements Comparable<T> {
         else return this.value - o.value;
     }
 }
-public class Greedy03 {
+public class Greedy03 { //55
 
     public static int Solution(int n, ArrayList<T> list) {
         int count = 0;

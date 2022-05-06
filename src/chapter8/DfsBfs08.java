@@ -3,7 +3,7 @@ package chapter8;
 import java.util.Scanner;
 
 public class DfsBfs08 {
-    // 수열 추측하기 -> 한번 다시 고민해보고 다시 풀어보자
+    // 수열 추측하기 -> 한번 다시 고민해보고 다시 풀어보자 5
     static int[][] arr;
     static int[] b,p, ch;
     static int n;
