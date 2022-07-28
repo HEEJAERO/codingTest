@@ -1,6 +1,8 @@
 import java.util.*;
 
 public class template {
+    static int n;
+    static int m;
     public static int Solution() {
         int answer = 0;
 
