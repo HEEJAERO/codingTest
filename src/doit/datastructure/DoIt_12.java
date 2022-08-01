@@ -1,4 +1,4 @@
-package doit;
+package doit.datastructure;
 
 import java.io.BufferedWriter;
 import java.io.OutputStreamWriter;

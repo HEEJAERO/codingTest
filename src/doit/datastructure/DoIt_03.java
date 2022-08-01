@@ -1,4 +1,4 @@
-package doit;
+package doit.datastructure;
 
 import java.io.IOException;
 import java.util.Scanner;

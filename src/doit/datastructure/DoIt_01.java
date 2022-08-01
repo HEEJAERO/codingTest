@@ -1,4 +1,4 @@
-package doit;
+package doit.datastructure;
 
 import java.util.Scanner;
 //백준 브론즈2 -11720번

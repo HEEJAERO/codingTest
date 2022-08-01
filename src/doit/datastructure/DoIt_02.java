@@ -1,4 +1,4 @@
-package doit;
+package doit.datastructure;
 
 import java.util.Scanner;
 // 브론즈1-1546번

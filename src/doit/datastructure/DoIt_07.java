@@ -1,7 +1,6 @@
-package doit;
+package doit.datastructure;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class DoIt_07 {
