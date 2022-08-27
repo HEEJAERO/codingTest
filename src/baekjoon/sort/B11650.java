@@ -7,9 +7,9 @@ public class B11650 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        Point[] arr = new Point[n];
+        Point1[] arr = new Point1[n];
         for (int i = 0; i < n; i++) {
-            arr[i] = new Point(sc.nextInt(), sc.nextInt());
+            arr[i] = new Point1(sc.nextInt(), sc.nextInt());
         }
         Arrays.sort(arr,(p1,p2)->{
             if (p1.x == p2.x) {
@@ -17,16 +17,16 @@ public class B11650 {
             }
             return p1.x - p2.x;
         });
-        for (Point p : arr) {
+        for (Point1 p : arr) {
             System.out.println(p);
         }
 
     }
 }
-class Point {
+class Point1 {
     int x;
     int y;
-    public Point(int x, int y) {
+    public Point1(int x, int y) {
         this.x = x;
         this.y = y;
     }
