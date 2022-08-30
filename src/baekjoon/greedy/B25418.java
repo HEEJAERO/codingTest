@@ -35,22 +35,4 @@ public class B25418 {
 
     }
 }
-//    static int bfs_25418(int n) {
-//        Queue<Integer> queue = new LinkedList<>();
-//        queue.add(n);
-//        int count = 0;
-//        while (!queue.isEmpty()) {
-//            int size = queue.size();
-//            for (int i = 0; i < size; i++) {
-//                int tmp = queue.poll();
-//                if(tmp==k) return count;
-//                else if(tmp>k) continue;
-//                queue.add(tmp * 2);
-//                queue.add(tmp + 1);
-//            }
-//            count++;
-//            System.out.println(count);
-//        }
-//       return 0;
-//    }
 
