@@ -58,7 +58,6 @@ public class 방문길이 {
     }
     public static void main(String[] args) {
         방문길이 a = new 방문길이();
-
         System.out.println(a.solution("ULURRDLLU"));
 
     }

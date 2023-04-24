@@ -13,6 +13,7 @@ public class 게임맵최단거리 {
         Queue<Point> queue = new LinkedList<>();
         Point start = new Point(0,0,1);
         queue.add(start);
+
         visited[0][0] =true;
         Point np;
         int x;
